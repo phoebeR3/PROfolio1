@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: Sofia;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>PROfolio</h1>
+<p>A simple space for artists.</p>
+
+</body>
+</html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1></h1>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+<a href="#" id="alert-button">Click to learn about PROfolio</a>
+
+<script>
+(() => {
+    let button = document.getElementById("alert-button");
+    // add your message here
+    let message = "If you're an artist, you're in the right place! We have tips and little other things for you! :)";
+    button.addEventListener("click", event => {
+        event.preventDefault();
+        alert(message);
+    });
+})();
+</script>
+<br>
+See tips for your level below:
+<br>
+<br>
+
+ <button class="accordion">Beginner</button>
+<div class="panel">
+  <p>  You might not know how to draw much yet! It's ok!
+    <br>
+    1. Find your artsyle.
+    <br>
+    2. Find what you like to draw (people, objects, nature etc.)
+    <br>
+    3.Draw a lot!
+  </p>
+</div>
+
+<button class="accordion">Intermediate</button>
+<div class="panel">
+  <p>You can draw, but it needs a little more work!
+    <br>
+    1. KNOW what you like to draw.
+    <br>
+    2. Practice drawing many different things.
+    <br>
+    3.Learn anatomy and shadows.(if you haven't already!)
+  </p>
+</div>
+
+<button class="accordion">Advanced</button>
+<div class="panel">
+  <p>You know how to draw a lot and with good skill, but you might be looking for more!
+    <br>
+    1. Master as many skills as you can.
+    <br>
+    2.Add lots of details
+  </p>
+</div>
+<br>
+<br>
+<br>
+  <p>TIPS FOR ALL ARTISTS!</p>
+<br>
+Keep drawing!
+<br>
+Keep trying.
+<br> 
+ And never question your talent.
+<br>
+Remember, you can do it! :)
+<br>
+<br>
+<br>
+<p>VIDEOS:</p>
+
+
+</script>
+ <a href="https://www.youtube.com/watch?v=On0CzV9_wwM">Video 1</a>
+ </script>
+ <a href="https://youtu.be/pTXhura-Vbc">Video 2</a>
+ <a href="https://www.youtube.com/watch?v=VhG7DENh-uk">Video 3</a>
+  <a href="https://www.youtube.com/watch?v=gl0VUHLJuls">Video 4</a>
+ 
+
+ <p>APPS:<p>
+   ArtWorkout 
+   <br>
+   SmARTify
+  <br>
+ 
+   <p> Choose your favorite color:<p>
+     <input type="color" name="myCheckbox" value="#ff0000">
+     <br>
+     <br>
+<p>IMAGE LINKS:<p>
+  <br>
+<a href="https://www.google.com/search?q=body+anatomy+drawing">Anatomy</a>
+<a href="https://www.google.com/search?q=still+life+examples">Still life</a>
